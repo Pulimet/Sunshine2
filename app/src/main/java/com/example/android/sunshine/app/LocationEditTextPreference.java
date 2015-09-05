@@ -1,5 +1,6 @@
 package com.example.android.sunshine.app;
 
+<<<<<<< HEAD
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -11,11 +12,22 @@ import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.widget.Button;
 import android.widget.EditText;
+=======
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.preference.EditTextPreference;
+import android.util.AttributeSet;
+
+>>>>>>> origin/master
 
 public class LocationEditTextPreference extends EditTextPreference {
     static final private int DEFAULT_MINIMUM_LOCATION_LENGTH = 2;
     private int mMinLength;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     public LocationEditTextPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
         TypedArray a = context.getTheme().obtainStyledAttributes(
@@ -28,6 +40,7 @@ public class LocationEditTextPreference extends EditTextPreference {
             a.recycle();
         }
     }
+<<<<<<< HEAD
 
     @Override
     protected void showDialog(Bundle state) {
@@ -70,3 +83,8 @@ public class LocationEditTextPreference extends EditTextPreference {
     }
 
 }
+=======
+}
+
+
+>>>>>>> origin/master
