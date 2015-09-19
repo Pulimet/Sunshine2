@@ -31,7 +31,8 @@
 
     <!-- Permissions required for Google Cloud Messaging -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
-    <permission   android:name="com.example.android.sunshine.app.permission.C2D_MESSAGE"
+    <permission
+        android:name="com.example.android.sunshine.app.permission.C2D_MESSAGE"
         android:protectionLevel="signature"/>
     <uses-permission android:name="com.example.android.sunshine.app.permission.C2D_MESSAGE"/>
 
@@ -43,8 +44,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/ForecastTheme">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
